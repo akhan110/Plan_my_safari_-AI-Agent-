@@ -1,13 +1,15 @@
 # 🦁 Safari Travel Tools — AI-Powered Safari Assistant 🌍
 
-This project provides a set of intelligent tools for planning safaris in East Africa (with a focus on Tanzania) using AI and real-time APIs. It combines domain-filtered travel search, location-based weather, and practical visa, currency, and health guidance into a Python toolkit. Designed to be integrated into CrewAI, LangChain agents, or custom travel assistants.
+![Demo](demo%20image.png)
+
+This project provides a set of intelligent tools for planning safaris in East Africa (with a focus on Tanzania) using AI and real-time APIs. It combines domain-filtered travel search, location-based weather, and visa/currency/health tools into a single set of Python utilities for agents.
 
 ---
 
 ## ✨ Features
 
 - 🔍 **Safari-Focused Travel Search**  
-  Search for safari-related travel information using the Tavily Search API with filters for Tanzanian domains (`.tz`, `tanzaniatourism.go.tz`). The tool returns the top 3 relevant results including title, summary, and source URL.
+  Search for safari-related travel information using the Tavily Search API with filters for Tanzanian domains (`.tz`, `tanzaniatourism.go.tz`). The tool returns the top 3 relevant results including snippets and URLs.
 
 - ☁️ **Weather for Safari Locations**  
   Automatically extracts safari park or city names from the search results and fetches the current weather for each using [wttr.in](https://wttr.in). Supports multiple locations per search.
